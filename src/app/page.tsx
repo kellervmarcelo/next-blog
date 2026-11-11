@@ -1,3 +1,9 @@
+import Header from '@/components/Header';
+
 export default function HomePage() {
-  return <h1>Olá de dentro do page.tsx</h1>;
+  return (
+    <header>
+      <Header />
+    </header>
+  );
 }
