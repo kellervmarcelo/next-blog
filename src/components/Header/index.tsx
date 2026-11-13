@@ -1,11 +1,9 @@
-'use client';
-
 export default function Header() {
   return (
-    <div onClick={() => console.log('aqui')}>
-      <h1 className='text-4xl font-bold text-amber-500 hover:text-white hover:bg-amber-400 transition-colors'>
-        Texto no meu h1
+    <header>
+      <h1 className='text-4xl sm:text-5xl sm:my-6 lg:my-8 lg:text-6xl font-extrabold text-center my-5'>
+        <a href='#'>The Blog</a>
       </h1>
-    </div>
+    </header>
   );
 }
